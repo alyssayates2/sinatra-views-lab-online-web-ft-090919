@@ -1,1 +1,9 @@
-<h1> <%= Today %> </h1>
+require 'date'
+<% @Today = DateTime.now %>
+<h1> The date is <%= @Today %> </h1>
+
+<% @name = "Joe" %>
+<h1> Goodbye <%= @name %> </h1>
+
+
+The date is Wednesday, November 18, 2015.
